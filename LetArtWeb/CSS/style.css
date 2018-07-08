@@ -1,0 +1,49 @@
+body {
+    background-color: #171717;
+}
+
+.sliderbg{
+    background-image: url('../media/KaCbg.jpg');
+    height: 40rem;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url('../media/KaCbg.jpg');
+
+    /* Set a specific height */
+    height: 30em;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+}
+
+footer {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.title {
+    font-size: 1500%;
+    text-align: -webkit-center;
+    padding: auto;
+    padding-top: 4%;
+    color: rgba(255,255,255,0.5);
+}
+
+.icon {
+    padding-right: 0.5rem; color: #fff
+}
